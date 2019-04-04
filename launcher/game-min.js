@@ -1570,7 +1570,7 @@ __extends = this.__extends || function(c, e) {
             b = this.getKey(b) + "#" + d;
             this.mapValueDic[b] = a
         };
-        e.hasMapRule = function(b, a) {
+     e.hasMapRule = function(b, a) {
             void 0 === a && (a = "");
             var d = this.getKey(b) + "#" + a;
             return this.mapValueDic[d] || this.mapClassDic[d] ? !0 : !1
@@ -16168,7 +16168,7 @@ __extends = this.__extends || function(c, e) {
             a.prototype.restartBtn2_i = function() {
                 var a = new egret.gui.UIAsset;
                 this.restartBtn2 = a;
-                this.__s(a, ["horizontalCenter", "source", "width", "y"], [94, "restart_png", 190, 610]);
+                this.__s(a, ["horizontalCenter", "right", "source", "width", "y"], [100, 122, "restart_png", 190, 610]);
                 return a
             };
             a.prototype.scoreGroup_i = function() {
@@ -16182,7 +16182,7 @@ __extends = this.__extends || function(c, e) {
             a.prototype.shareToFacebookBtn_i = function() {
                 var a = new egret.gui.UIAsset;
                 this.shareToFacebookBtn = a;
-                this.__s(a, ["height", "horizontalCenter", "source", "width", "y"], [62, -93, "facebooklogo_png", 190, 610]);
+                this.__s(a, ["height", "horizontalCenter", "source", "width", "y"], [0, 0, "facebooklogo_png", 0, 0]);
                 return a
             };
             a.prototype.__10_i = function() {
@@ -16247,10 +16247,10 @@ __extends = this.__extends || function(c, e) {
                 a.elementsContent = [this.__4_i(), this.iReturn_i(), this.iStart_i()];
                 return a
             };
-            a.prototype.playIntroduce_i = function() {
+             a.prototype.playIntroduce_i = function() {
                 var a = new egret.gui.UIAsset;
                 this.playIntroduce = a;
-                this.__s(a, ["source", "x", "y"], ["rules_png", 44, 591]);
+                this.__s(a, ["source", "x", "y"], ["rules_png", 0, 0]);
                 return a
             };
             a.prototype.__3_i = function() {
@@ -16261,7 +16261,7 @@ __extends = this.__extends || function(c, e) {
             a.prototype.startGameBtn_i = function() {
                 var a = new egret.gui.UIAsset;
                 this.startGameBtn = a;
-                this.__s(a, ["height", "right", "source", "width", "y"], [62, 44, "startButton_png", 189, 591]);
+                this.__s(a, [ "height", "right", "source", "width","y" ], [70, 122, "startButton_png", 220, 600]);
                 return a
             };
             a._skinParts = ["playIntroduce", "startGameBtn", "iReturn", "iStart", "introducer"];
